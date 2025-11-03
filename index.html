@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Welcome to Phone Book App</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Welcome to the Phone Book App</h1>
+    <form id="contact-form">
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="fn-input" type="text" placeholder="Enter your First Name" style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 20px;" required>
+            </div>
+            <div class="input-field col s6">
+                <input id="ln-input" type="text" placeholder="Enter your Last Name" style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 20px;" required>
+            </div>
+            <div class="input-field col s6">
+                <input id="phn-input" type="tel" pattern="[0-9]{10}" minlength="10" placeholder="Add Phone" style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 20px;" required>
+            </div>
+            <div class="input-field col s6 ">
+                <input id="email-input" type="text" placeholder="Add Email" style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 20px;">
+            </div>
+            <div class="center">
+                <button type="submit" id="subBtn" class="btn btn-secondary btn-large blue" style="margin-top: 30px;width: 300px;font-size: 20px;">Add Contact</button>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center;margin-bottom: 25px; margin-top: 25px;">
+            <input type="search" id="search-input" style="width: 200px;" placeholder="Search Contacts">
+        </div>
+        <div>
+            <table style="display: flex; justify-content: space-around;">
+                <tbody id="contact-list">
+                </tbody>
+            </table>
+        </div>
+    </form>
+</body>
+<script src="./script.js"></script>
+</html>
