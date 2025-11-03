@@ -13,3 +13,14 @@ Live Demo: https://akshaykrishnansub.github.io/phonebook/
 - ❌ Delete contacts
 - 💾 Data stored persistently in browser LocalStorage
 - 📱 Responsive and user-friendly interface
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|-------------|----------|
+| **HTML5** | Structure and layout |
+| **CSS3 and Materialize CSS** | Styling and responsiveness |
+| **JavaScript (Vanilla JS)** | Application logic and data handling |
+| **LocalStorage API** | Persistent storage for contact data |
+
+
