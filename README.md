@@ -29,8 +29,8 @@ Live Demo: https://akshaykrishnansub.github.io/phonebook/
 <img width="1920" height="1080" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/f49ed686-ef5e-4713-9286-eee791b71855" />
 
 ## Project Structure
-📦phoneApp
- ┣ 📜index.html
+📦phoneApp <br>
+ ┣ 📜index.html<br>
  ┗ 📜script.js
 
 
