@@ -25,5 +25,8 @@ Live Demo: https://akshaykrishnansub.github.io/phonebook/
 
 ## Screenshots
 
+<img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/71f58232-3193-48be-8849-6e9d7f29f8c5" />
+
+
 
 
