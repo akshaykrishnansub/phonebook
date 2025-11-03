@@ -7,7 +7,7 @@ Live Demo: https://akshaykrishnansub.github.io/phonebook/
 
 ## 🚀 Features
 
-- ➕ Add new contacts (Name, Phone Number, Email)
+- ➕ Add new contacts (First Name, Last Name, Phone Number, Email)
 - 🔍 Search contacts instantly
 - ✏️ Edit existing contact details
 - ❌ Delete contacts
